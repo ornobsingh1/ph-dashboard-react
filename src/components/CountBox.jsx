@@ -5,8 +5,6 @@ const CountBox = ({ data }) => {
   const submittedData = data.filter((element) => element.status === "Submitted");
   const reviewedData = data.filter((element) => element.status === "Reviewed");
 
- 
-
   return (
     <div>
       <Container>
